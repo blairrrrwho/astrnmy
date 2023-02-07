@@ -1,0 +1,74 @@
+#planet{
+    flex-direction:row ;
+    height: 850px;
+    width: 750px;
+    border:2px solid black ;
+    padding: 35px;
+    margin-left: 35px;
+    margin-top: 35px;
+    float: left;
+    ;
+}
+#rm{
+    height: 850px;
+    width: 750px;
+    border:2px solid black ;
+    padding: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    float: right;
+    border: solid black;
+    flex-direction: row;
+}
+#pic{
+    height: 300px;
+    width: 400px;
+    ;
+    flex-direction: row;
+    margin: auto;
+    border: solid black 2px;
+}
+#bigbox{
+    flex-direction: row;
+    border: solid black;
+}
+#info12{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    flex-direction: row;
+}
+#seeks{
+    height: 300px;
+    flex-direction: row;
+    border: solid black 2px;
+    margin-left: 75px;
+}
+#mr.id{
+    flex-direction: row;
+    border: solid black;
+}
+body {
+  background-image: url('assets/Rick-and-Morty-Zoom-Backgrounds-Garage-1.webp');
+  color: rgb(168, 17, 160);
+  font-size:;
+  border: solid black 2px;
+}
+#prt1{
+    border: solid black;
+    width: 300px;
+    float: left;
+}
+#prt2{
+    border: solid black;
+    width: 300px;
+    float: right;
+}
+#bgprt{
+    display: flex;
+    border: solid black;
+}
+
