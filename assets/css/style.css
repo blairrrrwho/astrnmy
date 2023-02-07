@@ -51,10 +51,11 @@
     flex-direction: row;
     border: solid black;
 }
+
 body {
-  background-image: url('assets/Rick-and-Morty-Zoom-Backgrounds-Garage-1.webp');
+  background-image: url('../images/Rick-and-Morty-Zoom-Backgrounds-Garage-1.webp');
   color: rgb(168, 17, 160);
-  font-size:;
+  font-size:25px;
   border: solid black 2px;
 }
 #prt1{
