@@ -56,8 +56,8 @@ body {
   /* background-image: url('../images/Rick-and-Morty-Zoom-Backgrounds-Garage-1.webp'); */
   color: rgb(168, 17, 160);
   font-size:25px;
-  border: solid black 2px;
 }
+
 #prt1{
     border: solid black;
     width: 300px;
