@@ -29,6 +29,6 @@
 ​
 ## Breakdown of Tasks
 * HTML - Blair Millet
-* CSS - Terry Lequernaque
-* JavaScript - Cailen Hamm, Joshua Pierre
+* CSS - Terry Lequernaque, Cailen Hamm
+* JavaScript - Joshua Pierre
 * README - Terry Lequernaque, Joshua Pierra, Cailen Hamm, Blair Millet

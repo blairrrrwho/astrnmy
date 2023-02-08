@@ -2,69 +2,78 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>astRnMy</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
         <script defer type="text/javascript" src="./assets/js/script.js"></script>
     </head>
 
     <body>
-        <div id="big box">
-            <div id="planet">
-            <div id="mr.id">
-                <img id="seeks" src="assets/Mr._Meeseeks.webp"><img id="pic" src="" >
-        </div>
-        
-        <h1 id="character"></h1>
-        <h5 id="info1"></h5>
-        <br>
-        <h5 id="info2"></h5>
-        <br>
-        <h5 id="info3"></h5>
-        <br>
-        <h5 id="info4"></h5>
-        <br>
-        <h5 id="info5" ></h5>
-        <br>
-        <h5 id="info6"></h5>
-        <br>
-        <h5 id="info7"></h5>
-        <br>
-        <h2 id="info8"></h2>
-        <br>
-        <h2 id="info9"></h2>
-        <br>
-        <h2 id="info10"></h2>
-        </div>
-        <div id="rm">
-            <img id="info12" src=""></h5>
+        <header>
+            <!-- Put in logo in and center -->
+            <img src="./assets/images/logo 3.png" alt="astRnMy logo"/>        
+        </header>
+        <section id="section-info">
+            <h1 class="title">Welcome to astRnMy!</h1>
             <br>
-        <h4>Name</h4>
-        <br>
-        <h5 id="info11"></h5>
-        <br>
-        <h4>last known photo</h4>
-        <br>
-        <h4>gender</h4>
-        <br>
-        <h5 id="info13"></h5>
-        <br>
-        <h4>location</h4>
-        <h5 id="info14"></h5>
-        <br>
-        <h4>origin</h4>
-        <h5 id="info15"></h5>
-        <br>
-        <h4>species</h4>
-        <h5 id="info16"></h5>
-        <br>
-        <h4>status</h4>
-        <h5 id="info17"></h5>
-        <br>
-        </div>
-        </div>
+            <p class="about-app">
+                Welcome to our application!
+                Currently displayed is the astronomy picture of the day, 
+                including all of its relevant information. <br>
+                Below the astronomy photo, you will also get to see 
+                a Rick and Morty character who has visited this area of space! <br>
+                Click this <button href="#rm">button</button> to jump straight to the fun stuff. 
+                <!-- Insert button to jump to RandM section -->
+                <!-- DNA button or something -->
+                <!-- need to do major styling to button -->
+            </p>
+        </section>
         
+        <section id="bigbox">
+            <div id="planet">
+                <div id="mr-id" class="column">
+                    <img id="seeks" src="./assets/images/Mr._Meeseeks.webp"><img id="pic" src="">
+                </div>
+                <br>
+                <div id="planet-info">
+                    <h1 id="character"></h1>
+                    <h1 id="info2"></h1>
+                    <h2 id="info1"></h2>
+                    <h5 id="info3"></h5>
+                    <h5 id="info4"></h5>
+                    <h5 id="info5" ></h5>
+                    <h5 id="info6"></h5>
+            <!--    <h5 id="info7"></h5>
+                    <h2 id="info8"></h2>
+                    <h2 id="info9"></h2>
+                    <h2 id="info10"></h2> -->
+                </div>
+            </section>
+       
+
+            <section id="rm">
+                <img id="info12" src="">
+                <br>
+                <div id="rm-info">
+                    <h1>Name:</h1>
+                        <h1 id="info11"></h1>
+                    <h3>Gender:</h3>
+                        <h3 id="info13"></h3>
+                    <h3>Location:</h3>
+                        <h3 id="info14"></h3>
+                    <h3>Origin: </h3>
+                        <h3 id="info15"></h3>
+                    <h3>Species: </h3>
+                        <h3 id="info16"></h3>
+                    <h3>Status: </h3>
+                        <h3 id="info17"></h3>
+                </div>
+
+            </section>
+        </div>
         
     </body>
 </html>
