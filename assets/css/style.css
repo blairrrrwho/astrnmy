@@ -22,7 +22,6 @@ body {
 
 #seeks{
     height: 300px;
-    flex-direction: row;
     margin-left: 75px;
 }
 
@@ -34,14 +33,17 @@ body {
     background-color: bisque;
     border-radius: 7px;
     border:2px solid black;
-    flex-direction:row ;
-    padding: 35px;
-    margin: 20px;
-    /* margin-left: 35px;
-    margin-top: 35px; */
-    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    margin: 7%;
     width: 80vw;
     height: 100vh;
+}
+
+#planet-info, #rm-info{
+    font-size: 80%;
 }
 
 #pic{
@@ -52,8 +54,8 @@ body {
 }
 
 #info12{
-    height: 300px;
-    width: 400px;
+    /* height: 300px;
+    width: 400px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
