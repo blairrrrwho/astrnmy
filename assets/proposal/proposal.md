@@ -25,7 +25,8 @@
     * Documentation: https://rickandmortyapi.com/; 
 ​
 ## Wireframe
-​
+​![alt text](wireframe1.jpg)
+![alt text](./wireframe2.jpg)
 ​
 ## Breakdown of Tasks
 * HTML - Blair Millet
