@@ -41,14 +41,11 @@ header {
     align-items: center;
 }
 
-#seeks{
+#seeks, #pic{
     height: 300px;
-    margin-left: 75px;
+    margin:auto;
 }
 
-/* #mr-id{
-    flex-direction: row;
-} */
 
 #planet, #rm{
     background-color: bisque;
@@ -59,8 +56,6 @@ header {
     align-items: center;
     padding: 7%;
     margin: 7%;
-    width: 80vw;
-    height: 100vh;
 }
 
 #planet-info, #rm-info{
@@ -84,6 +79,10 @@ header {
     flex-direction: row;
 }
 
+.column{
+    display: flex;
+}
+
 /* #prt1{
     border: solid black;
     width: 300px;
@@ -94,5 +93,3 @@ header {
     width: 300px;
     float: right;
 } */
-
-
