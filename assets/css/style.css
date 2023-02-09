@@ -83,8 +83,10 @@ header {
     display: flex;
 }
 
-/* #pickle {
-} */
+#pickle {
+    border: none;
+    
+}
 
 
 /* #prt1{
