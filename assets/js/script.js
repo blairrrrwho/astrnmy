@@ -9,8 +9,8 @@ function getspacedata(){
       document.getElementById("info1").innerHTML = JSON.stringify(data.copyright);
       document.getElementById("info2").innerHTML = JSON.stringify(data.date);
       document.getElementById("info3").innerHTML = JSON.stringify(data.explanation);
-      document.getElementById("info4").innerHTML = JSON.stringify(data.media_type);
-      document.getElementById("info5").innerHTML = JSON.stringify(data.service_version);
+      // document.getElementById("info4").innerHTML = JSON.stringify(data.media_type);
+      // document.getElementById("info5").innerHTML = JSON.stringify(data.service_version);
       document.getElementById("info6").innerHTML = JSON.stringify(data.title);
       document.getElementById("pic").src = data.url;
       console.log(data)
