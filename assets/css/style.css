@@ -41,16 +41,11 @@ header {
     align-items: center;
 }
 
-#seeks,#pic{
+#seeks, #pic{
     height: 300px;
-    margin: auto;
+    margin:auto;
 }
 
- #mr-id{
-    display: inline-block;
-    flex-direction: row;
-   
-} 
 
 #planet, #rm{
     background-color: bisque;
@@ -61,21 +56,18 @@ header {
     align-items: center;
     padding: 7%;
     margin: 7%;
-    width: 80vw;
-    height: 100vh;
 }
 
 #planet-info, #rm-info{
     font-size: 80%;
 }
 
-/* #pic{
+#pic{
     height: 300px;
     width: 400px;
     flex-direction: row;
-    text-align: center;
-    
-} */
+    margin: auto;
+}
 
 #info12{
     /* height: 300px;
@@ -85,6 +77,10 @@ header {
     margin-right: auto;
     border: solid black;
     flex-direction: row;
+}
+
+.column{
+    display: flex;
 }
 
 /* #prt1{
@@ -97,5 +93,3 @@ header {
     width: 300px;
     float: right;
 } */
-
-
