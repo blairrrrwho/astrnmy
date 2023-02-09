@@ -55,6 +55,7 @@ header {
     align-items: center;
     padding: 7%;
     margin: 7%;
+    margin-bottom: 0;
 }
 
 #planet-info, #rm-info{
