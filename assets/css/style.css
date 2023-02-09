@@ -41,14 +41,16 @@ header {
     align-items: center;
 }
 
-#seeks{
+#seeks,#pic{
     height: 300px;
-    margin-left: 75px;
+    margin: auto;
 }
 
-/* #mr-id{
+ #mr-id{
+    display: inline-block;
     flex-direction: row;
-} */
+   
+} 
 
 #planet, #rm{
     background-color: bisque;
@@ -67,12 +69,13 @@ header {
     font-size: 80%;
 }
 
-#pic{
+/* #pic{
     height: 300px;
     width: 400px;
     flex-direction: row;
-    margin: auto;
-}
+    text-align: center;
+    
+} */
 
 #info12{
     /* height: 300px;
