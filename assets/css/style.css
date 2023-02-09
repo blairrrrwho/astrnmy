@@ -46,6 +46,11 @@ header {
     margin:auto;
 }
 
+#mseeks {
+    display: flex;
+    justify-content: center;
+}
+
 #planet, #rm{
     background-color: bisque;
     border-radius: 7px;
@@ -85,7 +90,7 @@ header {
 
 #pickle {
     border: none;
-    
+
 }
 
 
