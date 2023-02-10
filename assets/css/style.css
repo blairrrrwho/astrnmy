@@ -130,3 +130,11 @@ header {
   #myBtn {
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 1140px){
+    .column{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+  }
