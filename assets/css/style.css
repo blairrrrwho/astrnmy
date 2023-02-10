@@ -44,6 +44,8 @@ header {
 #seeks, #pic{
     height: 300px;
     margin:auto;
+    border:2px solid black;
+    border-radius: 2%;
 }
 
 #mseeks {
@@ -80,8 +82,9 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: solid black;
+    border: 2px solid black;
     flex-direction: row;
+    border-radius: 2%;
 }
 
 .column{
@@ -91,7 +94,14 @@ header {
 #pickle {
     border: none;
     margin-left: 60%;
+}
 
+#nasa {
+    height: 100px;
+    border: none;
+    margin-left: 90%;
+    margin-top: 10%;
+    margin-bottom: -12%;
 }
 
 .modal {
@@ -107,6 +117,7 @@ header {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4);
   }
+
   .modal-content {
     background-color: #FEFEFE;
     margin: auto;
@@ -114,12 +125,14 @@ header {
     border: 1px solid #888;
     width: 80%;
   }
+
   .close {
     color: #AAAAAA;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
+
   .close:hover,
   .close:focus {
     color: #000;
@@ -136,5 +149,17 @@ header {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 950px){
+    #nasa {
+        margin-left: 85%;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    #nasa {
+        margin-left: 0%;
     }
   }

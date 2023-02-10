@@ -32,4 +32,5 @@
 * HTML - Blair Millet
 * CSS - Terry Lequernaque, Cailen Hamm
 * JavaScript - Joshua Pierre
+* Logos - cailen Hamm
 * README - Terry Lequernaque, Joshua Pierra, Cailen Hamm, Blair Millet
