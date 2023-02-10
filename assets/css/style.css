@@ -141,9 +141,18 @@ header {
   }
 
   #myBtn {
-    margin-top: 10px;
+    margin-top: 2%;
   }
 
+footer {
+    color: black;
+    font-weight: bold;
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 2%;
+}
+
+  /* Media Queries */
   @media screen and (max-width: 1140px){
     .column{
         display: flex;
