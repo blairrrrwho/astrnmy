@@ -43,16 +43,16 @@ function cha(){
       .catch(err => console.error(err));
       }
   
-
 cha();
 
-var count = 0;
-var btn = document.getElementById("pickle");
+
+// var count = 0;
+// var btn = document.getElementById("pickle");
   
-btn.onclick = function () {
-    count++;
-   localStorage.setItem("times pressed", count);
-}
+// btn.onclick = function () {
+//     count++;
+//    localStorage.setItem("times pressed", count);
+// }
 
 
 var modal = document.getElementById("myModal");
