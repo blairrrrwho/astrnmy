@@ -48,6 +48,20 @@ function cha(){
 
 cha();
 
+var count = 0;
+var btn = document.getElementById("pickle");
+  
+btn.onclick = function () {
+    count++;
+   localStorage.setItem("times pressed", count);
+}
+
+
+
+
+
+
+
 var modal = document.getElementById("myModal");
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
