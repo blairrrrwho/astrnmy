@@ -46,15 +46,17 @@ function cha(){
 cha();
 
 function counter(){
-var count = 0;
-var food = document.getElementById("pickle");
-
-food.onclick = function () {
-    count++;
-   localStorage.setItem("times pressed", count);
-   cha();
-}
-}
+  var count = 0;
+  var food = document.getElementById("pickle");
+  food.onclick = function () {
+    var a = ["3","2","1"]
+    var ab = a[Math.floor(Math.random()*a.length)];
+      count++;
+     localStorage.setItem("times pressed", count);
+     document.getElementById("sound"+ab).play();
+     cha();
+  }
+  }
 
 
 var modal = document.getElementById("myModal");
