@@ -45,14 +45,16 @@ function cha(){
   
 cha();
 
+function counter(){
+var count = 0;
+var food = document.getElementById("pickle");
 
-// var count = 0;
-// var btn = document.getElementById("pickle");
-  
-// btn.onclick = function () {
-//     count++;
-//    localStorage.setItem("times pressed", count);
-// }
+food.onclick = function () {
+    count++;
+   localStorage.setItem("times pressed", count);
+   cha();
+}
+}
 
 
 var modal = document.getElementById("myModal");
@@ -74,3 +76,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+counter();
