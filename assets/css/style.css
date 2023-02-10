@@ -171,4 +171,11 @@ footer {
     #nasa {
         margin-left: 0%;
     }
+    #planet, #rm{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #planet-info, #rm-info{
+        font-size: 65%;
+    }
   }
