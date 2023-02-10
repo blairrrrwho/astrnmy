@@ -94,7 +94,14 @@ header {
 #pickle {
     border: none;
     margin-left: 60%;
+}
 
+#nasa {
+    height: 100px;
+    border: none;
+    margin-left: 90%;
+    margin-top: 10%;
+    margin-bottom: -12%;
 }
 
 .modal {

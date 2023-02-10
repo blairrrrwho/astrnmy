@@ -2,11 +2,14 @@
 
 ## Description
 
-Our main goal for the development of this application was to create a site for young adults and teens to learn about astronomy 
+Our main goal for the development of this application was to create a site for young adults and teens to learn about astronomy in a new, cool, and fun way. 
+
+To accomplish this, we used NASA's API to display the daily astornomy photo and the Ricky and Morty API to display which character's DNA has been found at this specific location in space. 
+
+The astronomy photo will only change when the date changes, but there is a feature at the bottom to display all the character who have specimen on said galaxy/planet/etc. 
 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+
 - What problem does it solve?
 - What did you learn?
 
