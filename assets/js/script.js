@@ -1,7 +1,6 @@
 function getspacedata(){
 
 
-
   fetch('https://go-apod.herokuapp.com/apod',)
       .then(response => response.json())
       .then(data => data)
@@ -44,7 +43,6 @@ function cha(){
       .catch(err => console.error(err));
       }
   
-    
 
 cha();
 
@@ -55,11 +53,6 @@ btn.onclick = function () {
     count++;
    localStorage.setItem("times pressed", count);
 }
-
-
-
-
-
 
 
 var modal = document.getElementById("myModal");
@@ -81,6 +74,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
-
