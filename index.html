@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>astRnMy</title>
+        <!-- Bulma framework -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
         <link rel="icon" href="./assets/images/_previmg.png">
@@ -14,6 +15,8 @@
 
     <body>
         <header>
+            <!-- Utilizing Bulma framwork here for modal button -->
+            <!-- Displays list of developers-->
            <button class="button is-success is-light" id="myBtn">Developers</button>
                  <div id="myModal" class="modal">
                     <div class="modal-content">
@@ -27,50 +30,52 @@
             <img src="./assets/images/Logo w bg.png" alt="astRnMy logo"/>        
         </header>
         
+        <!-- Intro to the Application Section -->
         <section id="section-info">
-            <h1 class="title">Welcome to astRnMy!</h1>
-            <br>
+            <h1 class="title">Welcome to astRnMy!</h1> <br>
             <p class="about-app">
-                Welcome to Mr. MeeSeek's astronomy finder! 
+                Welcome to Mr. Meeseeks's astronomy finder! 
                 Currently displayed is the astronomy picture of the day, 
                 including all of its relevant information. <br>
                 Below the astronomy photo, you will also get to see 
                 a Rick and Morty character who has visited this area of space! <br>
+                <!-- Bulma framework button; links to the bottom section/API -->
                 <a href = "#rm"><button class="button is-danger is-outlined">Click ME!</button></a>
                 to jump straight to the fun stuff.
             </p>
         </section>
         
-        <section id="bigbox">
-            <div id="planet">
-                <div id="mseeks">
-                    <img src="./assets/images/Meeseek 2.png" alt="MeeSeek's Planet Photo of the Day Title">
-                </div>
-                <br>
-                <div id="mr-id" class="column">
-                    <img id="seeks" src="./assets/images/Mr._Meeseeks.webp" alt="Mr. Meeseeks"><img id="pic" 
-                        src="" alt="Astronomy photo of the day">
-                </div>
-                <br>
-                <div id="planet-info">
-                    <h1>Today's Date: </h1>
-                        <h1 id="info2"></h1> <br>
-                    <h3>Person who discovered: </h3>
-                        <h3 id="info1"></h3> <br>
-                    <h3>Information: </h3>
-                        <h3 id="info3"></h3> <br>
-                    <h3>Title: </h3>
-                        <h3 id="info6"></h3> <br>
-                    <img id="nasa" src="./assets/images/NASA.png" alt="NASA logo">
-                </div> 
+        <!-- NASA API Section -->
+        <section id="planet">
+            <div id="mseeks">
+                <!-- Image / Title -->
+                <img src="./assets/images/Meeseeks.png" alt="MeeSeek's Planet Photo of the Day Title">
             </div>
+            <br>
+            <div id="mr-id" class="column">
+                <img id="seeks" src="./assets/images/Mr._Meeseeks.webp" alt="Mr. Meeseeks">
+                <img id="pic" src="" alt="Astronomy photo of the day">
+            </div>
+            <br>
+            <div id="planet-info">
+                <h1>Today's Date: </h1>
+                    <h1 id="info2"></h1> <br>
+                <h3>Person who discovered: </h3>
+                    <h3 id="info1"></h3> <br>
+                <h3>Information: </h3>
+                    <h3 id="info3"></h3> <br>
+                <h3>Title: </h3>
+                    <h3 id="info6"></h3> <br>
+                <div id="nasaflex">
+                    <img id="nasa" src="./assets/images/NASA.png" alt="NASA logo">
+                </div>
+            </div> 
         </section>
-
        
-
+        <!-- Rick and Morty API Section -->
         <section id="rm">
-            <img src="./assets/images/Specimen.png" 
-                alt="Discovered Specimen Title"> <br><br>
+            <!-- Image / Title -->
+            <img src="./assets/images/Specimen.png" alt="Discovered Specimen Title"> <br><br>
             <img id="info12" src="" alt="Rick and Morty Character"> <br>
             <div id="rm-info">
                 <h1>Name:</h1>
@@ -92,13 +97,13 @@
                     <audio id="sound3" src="assets/sounds/SnapSave.io-Rick Sanchez Sighing  🔊 Meme Sound Effect Tik Tok Trend.mp4" preload="auto"></audio>
             </div>
         </section>
-
+        
+        <!-- GitHub Links for all developers listed at the top -->
         <footer>
             <a href="https://github.com/tlequernaque">Terry Lequernaque</a> <br>
             <a href="https://github.com/Minthare">Joshua Pierre</a> <br>
             <a href="https://github.com/cailenh">Cailen Hamm</a> <br>
             <a href="https://github.com/blairrrrwho">Blair Millet</a> <br>
         </footer>
-        
     </body>
 </html>

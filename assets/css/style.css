@@ -15,94 +15,10 @@ header {
     text-align: center;
 }
 
-#section-info {
-    background-color: rgba(99, 163, 142, 0.81);
-    font-size: 1.0em;
-    text-align: center;
-    color: rgb(32, 32, 73);
-    font-weight: bold;
-    border: 3px solid black;
-    border-radius: 5px;
-    padding: 5%;
-    margin: 3%;
-}
-
-.title {
-    font-size: 2.5em;
-    font-weight: 800;
-}
-
-.bigbox {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#seeks, #pic{
-    height: 300px;
-    margin:auto;
-    border:2px solid black;
-    border-radius: 2%;
-}
-
-#mseeks {
-    display: flex;
-    justify-content: center;
-}
-
-#planet, #rm{
-    background-color: bisque;
-    border-radius: 7px;
-    border:2px solid black;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 7%;
-    margin: 7%;
-    margin-bottom: 0;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-#planet-info, #rm-info{
-    font-size: 80%;
-}
-
-#pic{
-    height: 300px;
-    width: 400px;
-    flex-direction: row;
-    margin: auto;
-}
-
-#info12{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-    flex-direction: row;
-    border-radius: 2%;
-}
-
-.column{
-    display: flex;
-}
-
-#pickle {
-    border: none;
-    margin-left: 60%;
-}
-
-#nasa {
-    height: 100px;
-    border: none;
-    margin-left: 90%;
-    margin-top: 10%;
-    margin-bottom: -12%;
-}
+/* Developers listed at the top inside the modal */
+#myBtn {
+    margin-top: 2%;
+  }
 
 .modal {
     display: none;
@@ -123,6 +39,7 @@ header {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
+    border-radius: 10%;
     width: 80%;
   }
 
@@ -140,10 +57,95 @@ header {
     cursor: pointer;
   }
 
-  #myBtn {
-    margin-top: 2%;
-  }
+/* Welcoem title */
+.title {
+    font-size: 2.5em;
+    font-weight: 800;
+}
 
+/* Intro to the app section */
+  #section-info {
+    background-color: rgba(99, 163, 142, 0.81);
+    font-size: 1.0em;
+    text-align: center;
+    color: rgb(32, 32, 73);
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 5%;
+    margin: 3%;
+}
+
+/* Both main API sections containers */
+#planet, #rm{
+    background-color: bisque;
+    border-radius: 7px;
+    border:2px solid black;
+    padding: 4%;
+    margin: 7%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Information extracted from each API */
+#planet-info, #rm-info{
+    font-size: 80%;
+}
+
+/* Image / Title of NASA API section */
+#mseeks {
+    display: flex;
+    justify-content: center;
+}
+
+/* div container with Mr. Meeseeks's and NASA photp */
+#mr-id {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Mr. MeeSeeks photo + Astronomy Photo of the Day */
+#seeks, #pic{
+    height: 500px;
+    margin:auto;
+    padding: auto;
+    border:2px solid black;
+    border-radius: 2%;
+}
+
+#nasaflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* NASA logo for the bottom of the first API container */
+#nasa {
+    display: flex;
+    height: 100px;
+    border: none;
+}
+
+#info12{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    flex-direction: row;
+    border-radius: 2%;
+}
+
+/* Pickle Rick button that recalls the second API and plays 1 of 3 sounds */
+#pickle {
+    border: none;
+    margin-left: 60%;
+}
+
+/* Developer names in anchor tag with respective GitHub links attached */
 footer {
     color: black;
     font-weight: bold;
@@ -152,7 +154,23 @@ footer {
     padding: 2%;
 }
 
+
   /* Media Queries */
+  /* Smaller than a big desktop */
+@media screen and (max-width: 1590px) {
+    #seeks, #pic{
+        height: 400px;
+    }
+}
+
+/* Regular desktop */
+@media screen and (max-width: 1290px) {
+    #seeks, #pic{
+        height: 300px;
+    }
+}
+
+  /* Smaller than desktop */
   @media screen and (max-width: 1140px){
     .column{
         display: flex;
@@ -161,16 +179,8 @@ footer {
     }
   }
 
-  @media screen and (max-width: 950px){
-    #nasa {
-        margin-left: 85%;
-    }
-  }
-
-  @media screen and (max-width: 767px){
-    #nasa {
-        margin-left: 0%;
-    }
+  /* Smaller than a tablet / mobile size  */
+@media screen and (max-width: 767px){
     #planet, #rm{
         margin-left: 10%;
         margin-right: 10%;
@@ -179,3 +189,4 @@ footer {
         font-size: 65%;
     }
   }
+  /* extra space for good luck haha */

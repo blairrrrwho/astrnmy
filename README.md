@@ -4,14 +4,13 @@
 
 Our main goal for the development of this application was to create a site for young adults and teens to learn about astronomy in a new, cool, and fun way. This problem alleviates the boredom that results in learning astronomy!
 
-To accomplish this, we used NASA's API to display the daily astornomy photo and the Rick and Morty API to display which character's DNA has been discovered at this specific location in space. 
+To accomplish this, we used NASA's API to display the daily astronomy photo and the Rick and Morty API to display which character's DNA has been discovered at this specific location in space. 
 The NASA API lists the current date, the person who discovered this area in space, all relative NASA documented information about it, and its official title. 
 The Rick and Morty API lists the displayed character's name, gender, location, origin, species, and status.
 
 During this development process, our team learned how to incorporate efficient and innovative teamwork and the utilization of GitHub (we are GitHub professionals now). We actively worked together and communicated to generate the application, create the entire code, troubleshoot, and resolve bugs. 
 
-## Table of Contents (Optional)
-
+## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -35,14 +34,15 @@ https://blairrrrwho.github.io/astrnmy/
 ![alt text](./assets/images/astRnMy.png)
 
 ## Credits
+Developers:
 
-Cailen Hamm
+Cailen Hamm, Joshua Pierre, Terry Lequernaque, Blair Millet
 
-Joshua Pierre
 
-Blair Millet
+## APIs Used: 
+NASA API: https://data.nasa.gov/Space-Science/Astronomy-Picture-of-the-Day-API/ez2w-t8ua 
 
-Terry Lequernaque
+Rick and Morty API: https://rickandmortyapi.com/ 
 
 ## License
 

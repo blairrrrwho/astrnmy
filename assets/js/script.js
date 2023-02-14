@@ -1,6 +1,4 @@
 function getspacedata(){
-
-
   fetch('https://go-apod.herokuapp.com/apod',)
       .then(response => response.json())
       .then(data => data)
@@ -15,16 +13,12 @@ function getspacedata(){
       console.log(data)
     })
     .catch(err => console.error(err));
-
 }
 
 getspacedata();
 
 function cha(){
-
-
    var i = Math.floor(Math.random() * 19);
-
 
    fetch('https://rickandmortyapi.com/api/character')
     .then(response => response.json())
@@ -41,7 +35,7 @@ function cha(){
         )
     })
       .catch(err => console.error(err));
-      }
+}
   
 cha();
 
@@ -56,7 +50,7 @@ function counter(){
      document.getElementById("sound"+ab).play();
      cha();
   }
-  }
+}
 
 
 var modal = document.getElementById("myModal");
@@ -68,10 +62,12 @@ var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
 }
+
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
@@ -80,3 +76,4 @@ window.onclick = function(event) {
 }
 
 counter();
+// an extra space for good luck :o) 
