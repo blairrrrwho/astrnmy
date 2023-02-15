@@ -28,8 +28,9 @@ The Pickle Rick button at the bottom will refresh the Rick and Morty API, and lo
 
 The astronomy photo will only change when the date changes, but the button at the bottom will call the Rick and Morty API every time you click it to display more characters with found specimen at the respective location. 
 
-## Deployed Link
-https://blairrrrwho.github.io/astrnmy/ 
+## Deployment
+**Live URL: <a href="https://blairrrrwho.github.io/astrnmy/ ">astRnMy</a>**
+
 
 ![alt text](./assets/images/astRnMy.png)
 
